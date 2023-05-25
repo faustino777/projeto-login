@@ -14,7 +14,7 @@
         <section id="login">
             <div class="image">
             </div>
-            <form action="login.php" method="post">
+            <form action="login.php" method="post" autocomplete="on">
                 <div class="form">
                     <h1>Login</h1>
                     <p>
@@ -25,11 +25,11 @@
                             <label for="iemail"><span class="material-symbols-outlined">
                                 account_circle
                                 </span></label>
-                            <input type="email" name="mail" id="iemail" required>
+                            <input type="email" name="mail" id="iemail" required placeholder="Seu e-mail" autocomplete="email">
                         </div>
                         <div class="loginpw">
                             <label for="ipassword"><span class="material-symbols-outlined">key</span></label>
-                            <input type="password" name="password" id="ipassword" required minlength="8" maxlength="32">
+                            <input type="password" name="password" id="ipassword" required minlength="8" maxlength="32" placeholder=" Sua senha" autocomplete="current-password">
                         </div>
                         <div class="enterpw">
                             <input type="submit" value="Entrar">
