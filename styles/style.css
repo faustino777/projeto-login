@@ -12,7 +12,7 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5));
+    background-color: var(--cor1);
 }
 
 main {
@@ -48,20 +48,63 @@ div.form {
 div.form h1 {
     text-align: center;
     padding: 15px;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
 
 div.form p {
     width: 45vw;
     margin: auto;
     text-align: center;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.199);
 }
 
 div.login {
     display: grid;
     place-items: center;
     margin: 20px;
+}
+
+div.loginemail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 37.9px;
+    background-color: var(--cor4);
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+}
+
+div.loginemail input {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    width: 40vw;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: auto;
+    border: 1px solid transparent;
+}
+
+div.loginemail input:focus {
+    border-color: n
+}
+
+span.material-symbols-outlined {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+div.enterpw {
+    display: grid;
+    place-items: left;
+    margin: 30px;
+}
+
+div.enterpw input {
+    width: ;
 }
 
 
