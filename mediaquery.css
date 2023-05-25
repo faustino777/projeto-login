@@ -24,19 +24,19 @@ html, body {
         float: left;
         background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
         background-size: cover;
-        width: 30vw;
+        width: 25vw;
         height: 360px;
     }
 
     div.form {
         float: right;
-        width: 45vw;
+        width: 50vw;
         height: 35vh;
     }
 
     div.form h1 {
         margin: auto;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
         padding: 10px;
     }
@@ -114,13 +114,13 @@ html, body {
         float: left;
         background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
         background-size: cover;
-        width: 30vw;
+        width: 25vw;
         height: 360px;
     }
 
     div.form {
         float: right;
-        width: 45vw;
+        width: 50vw;
         height: 35vh;
     }
 
@@ -203,13 +203,13 @@ html, body {
         float: left;
         background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
         background-size: cover;
-        width: 30vw;
+        width: 25vw;
         height: 550px;
     }
 
     div.form {
         float: right;
-        width: 45vw;
+        width: 50vw;
         height: 35vh;
     }
 

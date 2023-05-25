@@ -38,7 +38,7 @@ div.image {
     display: block;
     background: url('../images/pexels-dids-3527786.jpg') no-repeat fixed top left;
     width: 70vw;
-    height: 30vh;
+    height: 20vh;
 }
 
 div.form {
@@ -48,7 +48,7 @@ div.form {
 
 div.form h1 {
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
 
