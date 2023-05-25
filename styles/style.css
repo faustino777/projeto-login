@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/* Configurações globais - Mobile first */
+
+:root {
+
+    --cor1: #B590B2ff;
+    --cor2: #532E71ff;
+    --cor3: #AE99C8ff;
+    --cor4: #BFA4C6ff;
+    --cor5: #7F64A4ff;
+}
