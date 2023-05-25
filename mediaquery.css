@@ -63,6 +63,7 @@ html, body {
         width: 32.5vw;
         height: 35px;
         border-radius: 0px;
+        margin-left: 0px;
     }
     
     div.loginpw {
@@ -74,6 +75,7 @@ html, body {
         width: 32.5vw;
         height: 35px;
         border-radius: 0px;
+        margin-left: 0px;
     }
 
     div.enterpw {
@@ -98,6 +100,7 @@ html, body {
         color: var(--cor4);
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
     }
+
 }
 
 /* Dispositivos grandes */
@@ -149,9 +152,10 @@ html, body {
     }
     
     div.loginemail input {
-        width: 32.5vw;
+        width: 34vw;
         height: 35px;
         border-radius: 0px;
+        margin-left: 0px;
     }
     
     div.loginpw {
@@ -160,9 +164,10 @@ html, body {
     }
     
     div.loginpw input {
-        width: 32.5vw;
+        width: 40vw;
         height: 35px;
         border-radius: 0px;
+        margin-left: 0px;
     }
 
     div.enterpw {
@@ -171,8 +176,7 @@ html, body {
     }
 
     div.enterpw input {
-        display: block;
-        width: 37.7vw;
+        width: 40vw;
         height: 40px;
         border-radius: 20px;
 
@@ -240,7 +244,7 @@ html, body {
     }
     
     div.loginemail input {
-        width: 32.5vw;
+        width: 50vw;
         height: 50px;
         border-radius: 0px;
     }
@@ -251,7 +255,7 @@ html, body {
     }
     
     div.loginpw input {
-        width: 32.5vw;
+        width: 40vw;
         height: 50px;
         border-radius: 0px;
     }

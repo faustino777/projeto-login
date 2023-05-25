@@ -48,6 +48,7 @@ div.form {
 
 div.form h1 {
     text-align: center;
+    color: var(--cor5);
     padding: 10px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
@@ -55,6 +56,7 @@ div.form h1 {
 div.form p {
     width: 45vw;
     margin: auto;
+    color: var(--cor5);
     text-align: center;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.199);
 }
@@ -83,10 +85,10 @@ div.loginemail input {
     display: flex;
     justify-content: center;
     align-items: right;
-    width: 40vw;
+    width: 50vw;
     height: 37px;
     border-radius: 15px;
-    margin-left: auto;
+    margin-left: 0px;
     border: 1px solid transparent;
 }
 
@@ -108,10 +110,10 @@ div.loginpw input {
     display: flex;
     justify-content: center;
     align-items: right;
-    width: 40vw;
+    width: 50vw;
     height: 36px;
     border-radius: 15px;
-    margin-left: auto;
+    margin-left: 0px;
     border: 1px solid transparent;
 }
 
@@ -119,7 +121,8 @@ span.material-symbols-outlined {
     display: inline-block;
     margin: 5px;
     padding: 10px;
-    color: white;
+    color: var(--cor5);
+    text-align: center;
 }
 
 div.enterpw {
@@ -158,6 +161,7 @@ div.enterpw a:hover {
     color: var(--cor3);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
+
 
 
 :root {
