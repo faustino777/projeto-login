@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Dispositivos médios */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    section#login {
+        width: 75vw;
+        min-height: 280px;
+
+    }
+
+    div.image {
+        float: left;
+        background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
+        background-size: cover;
+        width: 30vw;
+        height: 360px;
+    }
+
+    div.form {
+        float: right;
+        width: 45vw;
+        height: 35vh;
+    }
+
+    div.form h1 {
+        margin: auto;
+        font-size: 2em;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    div.form p {
+        display: block;
+        margin: auto;
+        padding: 5px;
+        width: 38vw;
+        height: 7vh;
+        font-size: 0.8em;
+    }
+
+    div.login {
+        margin: 5px;
+    }
+    
+    div.loginemail {
+        width: 38vw;
+        height: 35px;
+    }
+    
+    div.loginemail input {
+        width: 32.5vw;
+        height: 35px;
+        border-radius: 0px;
+    }
+    
+    div.loginpw {
+        width: 38vw;
+        height: 35px;
+    }
+    
+    div.loginpw input {
+        width: 32.5vw;
+        height: 35px;
+        border-radius: 0px;
+    }
+
+    div.enterpw {
+        display: block;
+        margin: 10px;
+    }
+
+    div.enterpw input {
+        display: block;
+        width: 37.7vw;
+        height: 40px;
+        border-radius: 20px;
+
+    }
+    div.enterpw a {
+        display: block;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    
+    div.enterpw a:hover {
+        color: var(--cor4);
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
+    }
+}
+
+/* Dispositivos grandes */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+    section#login {
+        width: 75vw;
+        min-height: 280px;
+
+    }
+
+    div.image {
+        float: left;
+        background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
+        background-size: cover;
+        width: 30vw;
+        height: 360px;
+    }
+
+    div.form {
+        float: right;
+        width: 45vw;
+        height: 35vh;
+    }
+
+    div.form h1 {
+        margin: auto;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    div.form p {
+        display: block;
+        margin: auto;
+        width: 38vw;
+        height: 7vh;
+        font-size: 1em;
+    }
+
+    div.login {
+        margin: 5px;
+    }
+    
+    div.loginemail {
+        width: 38vw;
+        height: 35px;
+    }
+    
+    div.loginemail input {
+        width: 32.5vw;
+        height: 35px;
+        border-radius: 0px;
+    }
+    
+    div.loginpw {
+        width: 38vw;
+        height: 35px;
+    }
+    
+    div.loginpw input {
+        width: 32.5vw;
+        height: 35px;
+        border-radius: 0px;
+    }
+
+    div.enterpw {
+        display: block;
+        margin: 10px;
+    }
+
+    div.enterpw input {
+        display: block;
+        width: 37.7vw;
+        height: 40px;
+        border-radius: 20px;
+
+    }
+    div.enterpw a {
+        display: block;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    
+    div.enterpw a:hover {
+        color: var(--cor4);
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
+    }
+}
+
+
+/* Dispositivos muito grandes */
+@media only screen and (min-width: 1200px) {
+
+    section#login {
+        width: 75vw;
+        min-height: 550px;
+
+    }
+
+    div.image {
+        float: left;
+        background: url('images/pexels-dids-3527786.jpg') no-repeat fixed center left;
+        background-size: cover;
+        width: 30vw;
+        height: 550px;
+    }
+
+    div.form {
+        float: right;
+        width: 45vw;
+        height: 35vh;
+    }
+
+    div.form h1 {
+        margin: auto;
+        font-size: 2.5em;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    div.form p {
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+        width: 38vw;
+        height: 7vh;
+        font-size: 1.3em;
+    }
+
+    div.login {
+        margin: 5px;
+        margin-top: 50px;
+    }
+    
+    div.loginemail {
+        width: 38vw;
+        height: 50px;
+    }
+    
+    div.loginemail input {
+        width: 32.5vw;
+        height: 50px;
+        border-radius: 0px;
+    }
+    
+    div.loginpw {
+        width: 38vw;
+        height: 50px;
+    }
+    
+    div.loginpw input {
+        width: 32.5vw;
+        height: 50px;
+        border-radius: 0px;
+    }
+
+    div.enterpw {
+        display: block;
+        margin: 10px;
+    }
+
+    div.enterpw input {
+        display: block;
+        width: 37.7vw;
+        height: 50px;
+        border-radius: 20px;
+
+    }
+    div.enterpw a {
+        display: block;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    
+    div.enterpw a:hover {
+        color: var(--cor4);
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
+    }
+}
