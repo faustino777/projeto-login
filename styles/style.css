@@ -75,6 +75,7 @@ div.loginemail {
     border-radius: 15px;
     margin: 15px;
     overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
 }
 
 div.loginemail input {
@@ -99,6 +100,7 @@ div.loginpw {
     border-radius: 15px;
     margin-bottom: 5px;
     overflow: hidden;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
 }
 
 div.loginpw input {
@@ -133,6 +135,7 @@ div.enterpw input {
     color: white;
     text-transform: uppercase;
     font-weight: bolder;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
 }
 
 div.enterpw input:hover {
@@ -146,10 +149,12 @@ div.enterpw a {
     margin-top: 4px;
     margin-left: 3px;
     color: var(--cor5);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
 
 div.enterpw a:hover {
     color: var(--cor4);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
 }
 
 
