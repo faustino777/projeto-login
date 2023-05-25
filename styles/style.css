@@ -27,7 +27,7 @@ main {
 section#login {
     background-color: white;
     width: 70vw;
-    min-height: 80vh;
+    min-height: 60vh;
     border-radius: 25px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.466);
     overflow: hidden;
@@ -43,7 +43,7 @@ div.image {
 
 div.form {
     display: block;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 div.form h1 {
