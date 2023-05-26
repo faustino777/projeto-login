@@ -118,7 +118,9 @@ div.loginpw input {
 }
 
 span.material-symbols-outlined {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
     padding: 10px;
     color: var(--cor5);
