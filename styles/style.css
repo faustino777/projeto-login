@@ -164,6 +164,8 @@ div.enterpw a:hover {
 
 input {
     text-align: center;
+    font-size: 0.9em;
+    text-indent: -15px;
 }
 
 input:focus {
