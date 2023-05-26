@@ -131,7 +131,7 @@ span.material-symbols-outlined {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    margin: auto;
     padding: 15px;
     color: var(--cor5);
     width: 50px;
