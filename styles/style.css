@@ -186,3 +186,8 @@ input:focus {
     outline: 0;
     text-align: center;
 }
+
+/* Função calc e translate, para ajustar elementos
+ex: width: calc(100% - 44px);
+    transform: translateY(-12px);
+ */
