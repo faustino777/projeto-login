@@ -141,6 +141,7 @@ div.enterpw input {
     font-weight: bolder;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.349);
     border: 2px solid var(--cor4);
+    cursor: pointer;
 }
 
 div.enterpw input:hover {
@@ -155,6 +156,7 @@ div.enterpw a {
     margin-left: 3px;
     color: var(--cor4);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.212);
+    text-decoration: none;
 }
 
 div.enterpw a:hover {
